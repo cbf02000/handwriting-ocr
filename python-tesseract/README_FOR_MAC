@@ -1,0 +1,5 @@
+for install do
+1. sudo port install tesseract py27-coverage
+2. get english or whatever language training dataset
+3. sudo port install opencv +python27
+4. python setup.py build && sudo python setup.py install
